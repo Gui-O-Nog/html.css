@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0;
+    padding: 100;
+}
+
+header{
+    background-image: linear-gradient(to top, #013A1B, #136736, #197E44, #259657, #29A762);
+    margin: 0;
+    padding: 20px;
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a{
+    width: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav > a:hover{
+    background-color: #269858;
+    border-radius: 5px;
+    color: black;
+    width: 10px;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+mark{
+    background-color: #93ddb3;
+    
+}
+
+a{
+    color: #033518;
+    text-decoration: none;
+}
+
+#caixa{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+}
+
+#cabecalho{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: #388A5A;
+    text-align: left;
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+}
+
+h3{
+    background-image: linear-gradient(to right, #82E4B2, #A2EAC0, #CDF6DC, #ECFCF0, #FAFFFB);
+    text-align: left;
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    color: #388A5A;
+}
+
+#midia{
+    background-color: #033518;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+}
+
+#extra{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+}
+
+#dentro{
+    background-color: #93ddb3;
+    margin: auto;
+    width: 790px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+
+#pergunta{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #185C33;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+}
+
+#direita{
+    position: right;
+}
+
+footer{
+    background-color: #043D1C;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
+
+strong{
+    color: #033518;
+}
