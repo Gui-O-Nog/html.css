@@ -6,10 +6,12 @@
     <title>Astronauta</title>
     <style>
         body{
+            height: 98vh;
+            background-color: black;
             background-image: url('imagens/espaco.jpg');
-            background-attachment: fixed;
+            background-repeat: no-repeat;
             background-position: center center;
-            margin: 100%;
+            background-size: cover;     
         }
 
         img{
@@ -18,17 +20,23 @@
             width: 100%;
         }
 
-        div#astronauta{
-            background-image: url('imagens/astronauta.png');
-            background-attachment: fixed;
+        main{
+            width: 500px;
+            padding: 10px;
             background-position: center center;
+        }
+
+        div#astronauta{
+            
         }
 
     </style>
 </head>
 <body>
-    <div id="astronauta">
-        
-    </div>
+    <main>
+        <div id="astronauta">
+            <img src="imagens/astronauta.png" alt="Imagem do Astronauta">
+        </div>
+    </main>
 </body>
 </html>
