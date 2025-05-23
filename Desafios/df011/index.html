@@ -14,29 +14,32 @@
             background-size: cover;     
         }
 
-        img{
-            margin: 0px;
-            padding: 0px;
-            width: 100%;
+        #container{
+            background-image: url(imagens/espaco.jpg);
+            position: relative;
+            height: 98vh;
+            padding: 0%;
+            background-color: black;
         }
 
-        main{
+        #conteudo{
+            background-image: url(imagens/astronauta.png);
+            position: absolute;
+            height: 500px;
             width: 500px;
-            padding: 10px;
-            background-position: center center;
-        }
+            left: 50%;
+            top: 50%;
 
-        div#astronauta{
-            
+            transform: translate(-50%, -50%);
         }
 
     </style>
 </head>
 <body>
-    <main>
-        <div id="astronauta">
-            <img src="imagens/astronauta.png" alt="Imagem do Astronauta">
-        </div>
-    </main>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
